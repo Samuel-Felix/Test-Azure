@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+    background-image: url("../src/imgs/codilheira.png");
+    background-size: cover;
+    display: flexbox;
+    margin: 0px;
+    padding: 5px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background: none;
+    padding: 20px;
+}
+
+marquee{
+    font-size: x-large;
+    width: auto;
+    background: none;
+
+}
+
+footer{
+    background: none;
+    color: aliceblue;
+    text-align: center;
+    margin-block-end: 5px;
+    place-self: end center;
+    align-self: baseline;
+    
+}
+
+.prop{
+    text-align: center;
+    color: aliceblue;
+    direction: "right";
+    
+}
