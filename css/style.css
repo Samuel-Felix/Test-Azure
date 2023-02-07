@@ -3,7 +3,7 @@
     background-size: cover;
     display: flexbox;
     margin: 0px;
-    padding: 5px;
+    padding: 0px;
 }
 
 h1{
@@ -17,6 +17,7 @@ marquee{
     font-size: x-large;
     width: auto;
     background: none;
+    padding: 10px;
 
 }
 
@@ -24,7 +25,7 @@ footer{
     background: none;
     color: aliceblue;
     text-align: center;
-    padding: 60px;
+    padding: 30px;
     
 }
 
@@ -40,11 +41,12 @@ footer{
     width: 1000px;
     height: 500px;
     overflow: hidden;
+    border: 5px solid #FFF;
 
 }
 
 .slides{
-    width: 1000px;
+    width: 400%;
     height: 500px;
     display: flex;
 }
@@ -54,8 +56,9 @@ footer{
 }
 
 .slide{
-    width: 100%;
+    width: 25%;
     position: relative;
+    transition: 2s;
 }
 
 .slide img {
@@ -107,23 +110,41 @@ footer{
     margin-left: -75%;
 }
 
-/* .navigation-auto div {
-    border: 2px solid #20a5ff;
+.navigation-auto div {
+    border: 2px solid #FFF;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
-
+    transition: 0.5s;
 }
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
-    margin-top: 260px;
+    width: 1000px;
+    margin-top: 470px;  
     display: flex;
     justify-content: center;
+    background: none;
+    margin-left: -25px;
 }
 
 .navigation-auto div:not(:last-child){
-    margin-right: 40px;
-} */
+    margin-right: 50px;
+    
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn4{
+    background-color: #FFF;
+}
