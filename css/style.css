@@ -95,7 +95,7 @@ footer{
 }
 
 #radio1:checked ~ .first{
-    margin-left: 0;
+    margin: 0px;
 }
 
 #radio2:checked ~ .first{
