@@ -2,7 +2,7 @@ let count = 1;  //Seta o Contador para a 1 Imagem
 document.getElementById("radio1").checked = true;
 
 
-
+// Time
 setInterval( function(){
     nextImg();
 }, 3000)
